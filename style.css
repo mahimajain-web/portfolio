@@ -1,0 +1,155 @@
+ div{
+  display: flex;
+  justify-content:left;
+  background-color: whitesmoke;
+  height: 85vh;
+  width: 85vw;
+  margin:55px;
+  box-shadow: 5px 5px 10px grey;s
+  box-sizing: border-box;
+
+}
+
+
+
+img{
+    border-radius: 100%;
+    height: 40vh;
+    width: 21vw;
+    float: left;
+    margin-top: 49px;
+    margin-left:85px;
+    text-align: center;
+    line-height: 115px;
+    
+  }
+
+h1{
+  text-align: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-size: 43px;
+  font-weight: bold;
+  margin-left:30px;
+  margin-top:75px;
+}
+
+p{
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+#container{
+  width: 85vh;
+  height: 30vh;
+  display: flex;
+  background-color:whitesmoke;
+  box-shadow: none;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+
+  
+
+
+#skills{
+  height: 130px;
+  width: 150px;
+  border-radius:100%;
+  line-height: 115px;
+  background-color:rgba(128, 255, 0, 0.529);
+  text-align: center;
+  font-size: 30px;
+  margin-top:60px; 
+  margin-left: 20px;
+  border: 1px solid black;
+  transition: background-color 0.5s ease 0.5s;
+}
+
+#skills:hover{
+  background-color: aquamarine;
+
+}
+
+#contact{
+  height: 130px;
+  width: 150px;
+  border-radius:100%;
+  line-height: 115px;
+  background-color:chocolate;
+  text-align: center;
+  font-size: 30px;
+  margin-top:60px; 
+  margin-left: 20px;
+  border: 1px solid black;
+  transition: background-color 0.5s ease 0.5s;
+}
+
+#contact:hover{
+  background-color:burlywood;
+}
+
+#personal{
+  height: 130px;
+  width: 150px;
+  border-radius:100%;
+  line-height: 115px;
+  background-color:rgb(30, 114, 210);
+  text-align: center;
+  font-size: 30px;
+  margin-top:60px; 
+  margin-left: 20px;
+  border: 1px solid black;
+  transition: background-color 0.5s ease 0.5s;
+}
+
+#personal:hover{
+  background-color:rgb(135, 147, 222);
+}
+
+#project{
+  height: 130px;
+  width: 150px;
+  border-radius:100%;
+  line-height: 115px;
+  background-color:rgba(128, 128, 128, 0.986);
+  text-align: center;
+  font-size: 30px;
+  margin-top:60px; 
+  margin-left: 20px;
+  border: 1px solid black;
+  transition: background-color 0.5s ease 0.5s;
+
+}
+
+#project:hover{
+  background-color: cadetblue;
+}
+
+#phone{
+  display: flex;
+  justify-content: center;
+  background-color:rgba(245, 245, 220, 0.847);
+  height: 70vh;
+  width: 75vw;
+  margin:45px;
+  box-shadow: 5px 5px 10px grey;s
+  box-sizing: border-box;
+  
+  
+
+}
+
+#f{
+  text-align: justify;
+  background-color:whitesmoke;
+}
+
+#r{
+  width: 80vw;
+  height: 40vh;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
